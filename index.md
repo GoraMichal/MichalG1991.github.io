@@ -1,16 +1,24 @@
-<title>Site Maintenance</title>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
+<html>
+  <head>
+    <link rel="stylesheet" 
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<article>
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div>
-        <p>Hello!</p>
+    <style>
+      .jumbotron {
+        background-color: #e6ffe6;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="jumbotron">
+      <h1>Welcome to Dunder Mifflin!</h1>
+      <p>
+        Dunder Mifflin Inc. (stock symbol <strong>DMI</strong>) is
+        a micro-cap regional paper and office supply distributor with
+        an emphasis on servicing small-business clients.
+      </p>
     </div>
-</article>
+  </body>
+</html>
